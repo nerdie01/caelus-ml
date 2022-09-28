@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CaelusML.MainPage">
+
+    <ContentPage.MenuBarItems>
+        
+        <MenuBarItem Text="File">
+            <MenuFlyoutItem Text="Save"/>
+            <MenuFlyoutItem Text="Save As"/>
+            <MenuFlyoutSubItem Text="Export">
+                <MenuFlyoutItem Text="Tensorflow Model"/>
+            </MenuFlyoutSubItem>
+            <MenuFlyoutItem Text="Exit"
+                            Command="{Binding ExitCommand}" />
+        </MenuBarItem>
+        
+        <MenuBarItem Text="Insert">
+            
+        </MenuBarItem>
+
+        <MenuBarItem Text="Edit">
+
+        </MenuBarItem>
+
+    </ContentPage.MenuBarItems>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
