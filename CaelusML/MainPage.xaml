@@ -14,12 +14,12 @@
             <MenuFlyoutItem Text="Exit"
                             Command="{Binding ExitCommand}" />
         </MenuBarItem>
-        
-        <MenuBarItem Text="Insert">
-            
-        </MenuBarItem>
 
         <MenuBarItem Text="Edit">
+
+        </MenuBarItem>
+
+        <MenuBarItem Text="Insert">
 
         </MenuBarItem>
 
