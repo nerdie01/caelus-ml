@@ -1,5 +1,5 @@
 ![](https://drive.google.com/uc?id=1BMn975n0e6nexZ7lnyM2CWjbXd9Dhc_2)
-...is a simple tool to create neural networks with zero code visually. Its primary aim differs from other UI-based machine learning tools in that it aims to be *powerful* and *flexible* without sacrificing *simplicity* and *intuitiveness*.
+...is a simple tool to create neural networks with zero code visually. Its primary aim differs from other UI-based machine learning tools in that it aims to be *powerful* and *flexible* without sacrificing *simplicity* and *intuitiveness*. It is made with the .NET Multi-Platform App UI (MAUI) framework.
 
 ## Structure
 
